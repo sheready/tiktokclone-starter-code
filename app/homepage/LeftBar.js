@@ -36,7 +36,7 @@ const LeftBar = () => {
 
       <p className='font-display-bold text-md text-gray-500 mb-2 mt-4 ml-2'>Company</p>
       <p className='font-display-bold text-md text-gray-500 my-2 ml-2'>Program</p>
-      <p className='font-display-bold text-md text-gray-500 my-2 ml-2'>Terms & Policies</p>
+      <p className='font-display-bold text-md text-gray-500 mt-2 ml-2'>Terms & Policies</p>
       <p className='font-display-regular text-sm text-gray-500 ml-2'>&copy; 2024 TikTok</p>
 
 
