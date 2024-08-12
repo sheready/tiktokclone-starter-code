@@ -4,17 +4,25 @@ module.exports = {
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
+    "./node_modules/flowbite/**/*.js",
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      colors:{
+        'pink': '#EE1D52',
+        'blue': '#00F2EA'
+      },
+      fontFamily: {
+        'display-bold': 'display-bold',
+        'display-medium': 'display-medium',
+        'display-regular': 'display-regular',
+        'text-bold': 'text-bold',
+        'text-medium': 'text-medium',
+        'text-regular': 'text-regular'
       },
       screens:{
         'sm-esm': '350px',
-  
+        // => @media (min-width: 350px) { ... } #
         'esm': '480px',
         // => @media (min-width: 480px) { ... } #
         'sm': '640px',
@@ -35,5 +43,7 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    require('flowbite/plugin')
+  ],
 };

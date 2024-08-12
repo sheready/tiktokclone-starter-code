@@ -31,3 +31,36 @@ body {
     text-wrap: balance;
   }
 }
+
+@font-face {
+  font-family: "display-bold";
+  src: url("../fonts/TikTokDisplay-Bold.ttf");
+}
+
+@font-face {
+  font-family: "display-medium";
+  src: url("../fonts/TikTokDisplay-Medium.ttf");
+}
+
+@font-face {
+  font-family: "display-regular";
+  src: url("../fonts/TikTokDisplay-Regular.ttf");
+}
+
+@font-face {
+  font-family: "text-bold";
+  src: url("../fonts/TikTokText-Bold.ttf");
+}
+
+@font-face {
+  font-family: "text-medium";
+  src: url("../fonts/TikTokText-Medium.ttf");
+}
+
+@font-face {
+  font-family: "text-regular";
+  src: url("../fonts/TikTokText-Regular.ttf");
+}
+
+
+
