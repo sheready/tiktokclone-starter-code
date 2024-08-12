@@ -10,7 +10,8 @@ module.exports = {
     extend: {
       colors:{
         'pink': '#EE1D52',
-        'blue': '#00F2EA'
+        'blue': '#00F2EA',
+        'lightGrey': '#121212',
       },
       fontFamily: {
         'display-bold': 'display-bold',
